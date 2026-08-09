@@ -1,0 +1,67 @@
+gym-booking-mern/
+├── backend/
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Trainer.js
+│   │   ├── FitnessClass.js
+│   │   ├── Booking.js
+│   │   ├── Membership.js
+│   │   └── Payment.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── users.js
+│   │   ├── classes.js
+│   │   ├── bookings.js
+│   │   ├── trainers.js
+│   │   └── admin.js
+│   ├── middleware/
+│   │   ├── auth.js
+│   │   └── roleCheck.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── classController.js
+│   │   ├── bookingController.js
+│   │   └── adminController.js
+│   ├── config/
+│   │   └── db.js
+│   ├── server.js
+│   ├── .env
+│   └── package.json
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── common/
+│   │   │   │   ├── Navbar.jsx
+│   │   │   │   ├── Footer.jsx
+│   │   │   │   └── LoadingSpinner.jsx
+│   │   │   ├── auth/
+│   │   │   │   ├── Login.jsx
+│   │   │   │   └── Register.jsx
+│   │   │   ├── user/
+│   │   │   │   ├── Dashboard.jsx
+│   │   │   │   ├── ClassList.jsx
+│   │   │   │   ├── MyBookings.jsx
+│   │   │   │   └── Membership.jsx
+│   │   │   ├── trainer/
+│   │   │   │   ├── TrainerDashboard.jsx
+│   │   │   │   ├── CreateClass.jsx
+│   │   │   │   └── ClassBookings.jsx
+│   │   │   └── admin/
+│   │   │       ├── AdminDashboard.jsx
+│   │   │       ├── ManageUsers.jsx
+│   │   │       ├── ManageTrainers.jsx
+│   │   │       └── RevenueReport.jsx
+│   │   ├── context/
+│   │   │   └── AuthContext.jsx
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   └── index.js
+│   ├── public/
+│   │   └── index.html
+│   ├── package.json
+│   └── .env
+│
+└── README.md
