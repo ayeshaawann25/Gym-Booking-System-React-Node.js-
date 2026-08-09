@@ -1,0 +1,5 @@
+mkdir gym-booking-mern
+cd gym-booking-mern
+mkdir backend
+cd backend
+npm init -y
