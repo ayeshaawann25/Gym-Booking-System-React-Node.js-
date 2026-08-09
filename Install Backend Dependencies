@@ -1,0 +1,2 @@
+npm install express mongoose cors dotenv bcryptjs jsonwebtoken nodemailer
+npm install -D nodemon
